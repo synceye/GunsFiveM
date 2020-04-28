@@ -1,3 +1,6 @@
+-------------------------------------------------------------
+-- Nemojte NISTA dirati tu unutra jedino ako znate sto radite
+-------------------------------------------------------------
 function alert(msg)
     SetTextComponentFormat("STRING")
     AddTextComponentString(msg)
