@@ -1,6 +1,9 @@
 resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
 
-client_script = "discord.lua"
+client_scripts {
+    "functions.lua",
+    "guns-c.lua"
+}
 
 -- OVO JE SAMO ZA STARIJE SERVERE ZA FIVEM OD PRIJE 1.MJESECA 2020 GODINE
 -- AKO IMATE SERVER OD TADA ONDA PROMIJENITE NAZIV OVOG FILEA U OVO ---> "__resource.lua"
